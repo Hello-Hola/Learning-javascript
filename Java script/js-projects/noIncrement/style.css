@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+}
+body{
+    width: 100%;
+    font-family: 'polysans slim';
+}
+
+main{
+    width: 60%;
+    margin:  7rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+
+h2{
+    font-size: 17.5rem;
+}
+button{
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    border: 3px solid white;
+    background: rgb(216, 225, 225);
+    color: rgb(31, 32, 32);
+    border-radius: 1rem;
+    border: 2px solid black;
+}
