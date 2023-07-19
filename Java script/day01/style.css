@@ -1,0 +1,51 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+}
+
+h1{
+    line-height: 100%;
+    font-size: 9rem;
+    color: #282828;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+}
+
+section{
+    max-width: 90%;
+    margin: 7rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    font-family: 'polysans slim';
+}
+
+
+.circle{
+    border: 2px solid black;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    background-color: bisque;
+}
+
+button{
+    padding: 1.6rem 3.2rem;
+    background: #000;
+    color: white;
+    border: 2px solid white;
+    font-family: inherit;
+    font-size: 1.3rem;
+
+}
+
+button:hover{
+    background: #282828;
+}
