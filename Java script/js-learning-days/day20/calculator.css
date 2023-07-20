@@ -1,0 +1,12 @@
+*{
+    margin-top: 3rem;
+}
+
+body{
+    font-family: 'polysans slim';
+    color: gray;
+}
+
+span{
+    font-size: 3rem;
+}

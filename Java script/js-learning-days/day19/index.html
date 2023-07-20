@@ -11,7 +11,12 @@
             height: 100%;
             display: grid;
             place-content: center;
+            font-family: 'polysans slim';
             font-size: 1rem;
+        }
+        main{
+            width: 60vw;
+            margin: 8rem auto;
         }
         button{
             cursor: pointer;
@@ -22,10 +27,14 @@
     </style>
 </head>
 <body>
+    <main>
     <h1>People enterd</h1>
     <h2 id="count-el">0</h2>
     <button id="increment-box" onclick="increment()">Increment</button>
     <button id="save-btn" onclick="save()">Save</button>
+    <p>Previous Entries</p>
+    <p id="save-el"></p>
     <script src="counter.js"></script>
+    </main>
 </body>
 </html>

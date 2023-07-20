@@ -1,21 +1,23 @@
 
 
-// button selection code
+// button and paragraph selection code
 let countEl = document.getElementById('count-el')
-console.log(countEl)
-
-// increment function code
+let saveEl = document.querySelector('#save-el')
 let count = 0; 
 
+// +1 increment function code
 function increment(){
     count ++; 
     countEl.innerText = count;
-}
-
-// reset the incremet to 0 
-console.log(count + 'first');
-
-function save(){
     console.log(count);
 }
 
+// save current count and rest count to 0
+function save(){
+    let countStr = count + " - "
+    saveEl.textContent += countStr;
+    countEl.textContent = 0;
+    count = 0;
+}
+
+ 
