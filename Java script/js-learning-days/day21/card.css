@@ -6,13 +6,13 @@ h1{
 
 main{
     text-align: center;
-    width: max-content;
+    width: 100%;
     margin: 5rem auto;
 }
 body{
     font-family: 'polysans slim';
     height: 100vh;
-    width: 100%;
+    max-width: 100%;
     overflow-x: hidden;
     /* background: url(https://images.unsplash.com/photo-1682685797507-d44d838b0ac7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80) no-repeat ; */
     background-size: cover;
@@ -20,6 +20,9 @@ body{
     background-color: rgb(222, 193, 193);
 }
 
+#cards-el{
+    min-height: 30vh;
+}
 p{
     color: rgb(42, 41, 44);
     font-size: 2rem;
