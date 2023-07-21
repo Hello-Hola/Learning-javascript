@@ -8,21 +8,21 @@ document.getElementById('num2-el').textContent = num2;
 
 // let total ;
 function add(){
-    total = num1 + num2;
-    document.getElementById('sum-el').textContent = total;
+    let total = num1 + num2;
+    document.getElementById('sum-el').textContent = "Result: " + total;
 }
 
 function subtract(){
-  total = num1 - num2;
-    document.getElementById('sum-el').textContent = total;
+    let total = num1 - num2;
+    document.getElementById('sum-el').textContent = "Result: " +  total;
 }
 
 function divide(){
-  total = num1 / num2;
-    document.getElementById('sum-el').textContent = total;
+    let total = num1 / num2;
+    document.getElementById('sum-el').textContent = "Result: " + total;
 }
 
 function multiply(){
-    total = num1 * num2;
-    document.getElementById('sum-el').textContent = total;
+    let total = num1 * num2;
+    document.getElementById('sum-el').textContent = "Result: " + total;
 }
