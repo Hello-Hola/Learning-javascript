@@ -1,0 +1,43 @@
+
+body{
+    font-family: 'polysans slim';
+    min-width: 400px;
+}
+
+#input-el{
+    width: 100%;
+    border: 2px solid green;
+    min-height: 7vh;
+    margin: 2rem 0rem 1rem 0rem; 
+    padding:0rem 1rem;
+    font-size: 1.5rem;
+    box-sizing: border-box;
+}
+
+input[type=text]:focus{
+    background: rgb(244, 247, 255);
+}
+
+#input-btn{
+    color: white;
+    background: green;
+    font-size: 1.3rem;
+    padding: .8rem 1.6rem;
+    border: none;
+    cursor: pointer;
+}
+
+ul{
+    padding-inline-start: 0rem;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: .5rem;
+}
+
+li a {
+    color: green;
+}
+
+
